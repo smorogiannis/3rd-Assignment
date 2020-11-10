@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Eshop Homepage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 align="center">Add your product</h1> 
+        <center> 
+            <form method="POST"  action="RecServlet">  
+                Product name(19):
+                <input type="text" name="name" maxlength="19">
+                Barcode(29):
+                <input type="text" name="barcode" maxlength="29">
+                Color(29):
+                <input type="text" name="color" maxlength="29">
+                Description(299):
+                <input type="text" name="desc" maxlength="299">
+                <br><br>  
+                <center>    
+                        <input type="SUBMIT" value="Submit">  
+                </center> 
+            </form>
+        </center>
+    </body>
+</html>
